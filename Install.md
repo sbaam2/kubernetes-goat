@@ -1,3 +1,12 @@
+kubectl, helm 우선 설치 필요
+local일경우 minikube도 같이 설치
+
+역할
+kubernetes : 로컬환경에서 클러스터 실행, 개발 등 환경 제공
+minikube : 클러스터
+helm : k8s 클러스터를 yaml 파일로 관리할 수 있게 제공 
+
+
 https://madhuakula.com/kubernetes-goat/docs/
 
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
