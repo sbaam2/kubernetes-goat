@@ -3,7 +3,9 @@ local일경우 minikube도 같이 설치
 
 역할
 kubernetes : 로컬환경에서 클러스터 실행, 개발 등 환경 제공
-minikube : 클러스터
+
+minikube : 클러스터 엔진
+
 helm : k8s 클러스터를 yaml 파일로 관리할 수 있게 제공 
 
 
